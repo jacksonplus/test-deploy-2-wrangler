@@ -14,8 +14,7 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix --cache",
-    "format": "prettier --write --experimental-cli src/",
-    "deploy:wangler": "wrangler pages deploy dist"
+    "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
     "pinia": "^3.0.4",
@@ -43,7 +42,6 @@
     "vite": "^7.3.0",
     "vite-plugin-vue-devtools": "^8.0.5",
     "vitest": "^4.0.16",
-    "vue-tsc": "^3.2.1",
-    "wrangler": "^4.56.0"
+    "vue-tsc": "^3.2.1"
   }
 }
