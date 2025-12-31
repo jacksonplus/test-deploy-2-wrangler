@@ -28,7 +28,11 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 9
+          version: 8
+
+      # 4. 验证 pnpm 安装
+      - name: Verify pnpm installation
+        run: pnpm --version
 
       # 4. 安装依赖
       - name: Install dependencies
